@@ -244,6 +244,14 @@ footer-home, {
     top: 11.3%;
     margin: 0 auto;
 }
+.navTri#upHome:hover {
+	opacity: .5;
+
+	-webkit-transition: opacity .4s;
+    -moz-transition: opacity .4s;
+    -o-transition: opacity .4s;
+    transition: opacity .4s;
+}
 
 img#uphome {
 	margin: auto;
@@ -256,7 +264,7 @@ img#uphome {
     margin: 0 auto;
 }
 
-.navTri#down:hover {
+.navTri#downModern:hover {
 	opacity: .5;
 
 	-webkit-transition: opacity .4s;
@@ -283,11 +291,37 @@ img#downModern {
     margin: 0 auto;
 }
 
+.navTri#upChic:hover {
+	opacity: .5;
+
+	-webkit-transition: opacity .4s;
+    -moz-transition: opacity .4s;
+    -o-transition: opacity .4s;
+    transition: opacity .4s;
+}
+
 .navTri#downFresh {
 	width: 100px;
     position: relative;
     top: 88.5%;
     margin: 0 auto;
+
+}.navTri#downFresh:hover {
+	opacity: .5;
+
+	-webkit-transition: opacity .4s;
+    -moz-transition: opacity .4s;
+    -o-transition: opacity .4s;
+    transition: opacity .4s;
+}
+
+.navTri#downModern:hover {
+	opacity: .5;
+
+	-webkit-transition: opacity .4s;
+    -moz-transition: opacity .4s;
+    -o-transition: opacity .4s;
+    transition: opacity .4s;
 }
 
 /* ======== Fresh ========== */
@@ -301,6 +335,15 @@ img#downModern {
     position: relative;
     top: 11.3%;
     margin: 0 auto;
+}
+
+.navTri#upModern:hover {
+	opacity: .5;
+
+	-webkit-transition: opacity .4s;
+    -moz-transition: opacity .4s;
+    -o-transition: opacity .4s;
+    transition: opacity .4s;
 }
 
 
