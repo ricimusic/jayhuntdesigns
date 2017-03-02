@@ -1,0 +1,306 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+/*==================== Heading sizings/stylings ===========================*/
+
+h1 {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	text-align: center;
+	size: 2em;
+	color: #ffffff;
+
+	text-transform: uppercase;
+	letter-spacing: 1.5em;
+	word-spacing: 2em;
+	text-shadow: #000000 2px 2px 3px;
+}
+
+/* ------------------Header and navigation bar -------------------*/
+
+header {
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	margin: auto;
+	background-color: #000000;
+	z-index: 2000;
+	/*opacity: .5;*/
+}
+
+p {
+	font-size: 90px;
+}
+
+#headerCol-left {
+	float: left;
+	width: 40%;
+	height: 70px;
+	background-color: #000000;
+	padding-left: 30px;
+}
+
+img#header-logo {
+	width: 100px;
+}
+
+#headerCol-right {
+	width: 50%;
+	height: 100px;
+    float: right;
+    background-color: #ffffff;
+}
+
+#headerCol-right img {
+	margin-left: 10px;
+    float: right;
+}
+
+#headerCol-right img:hover {
+    opacity: .50;
+ 
+    -webkit-transition: opacity .4s;
+    -moz-transition: opacity .4s;
+    -o-transition: opacity .4s;
+    transition: opacity .4s;
+}
+
+#headerCol-right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#headerCol-right ul li {
+    float: right;
+}
+
+#headerCol-right ul li a {
+	display: block;
+	font-size: 1em;
+	letter-spacing: .5em;
+	text-transform: uppercase;
+	color: #000000;
+	text-align: center;
+	text-decoration: none;
+	padding: 41px 25px;
+}
+
+#headerCol-right ul li:hover {
+	background-color: rgb(192, 145, 0);
+
+	-webkit-transition: background-color .4s;
+    -moz-transition: background-color .4s;
+    -o-transition: background-color .4s;
+    transition: background-color .4s;
+}
+
+header:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* ------------------Main body and content section -------------------*/
+
+/*.wrapper {
+	height: 100%;
+	background-color: #ccc;
+}*/
+
+.view {
+	height: 100%;
+}
+
+.view#homeSection {
+    background-color: #000000;
+}
+
+#site-title {
+	background-color: rgba(0, 0, 0, 0.50);
+	position: relative;
+	width: 68%;
+	top: 48%;
+	margin: 0 auto;
+	z-index: 1000;
+}
+
+.banner-container {
+	height: 88.7%;
+	width: 100%;
+	background-color: #000000;
+}
+
+.display-img {
+	display: inline-block;
+}
+
+.display-img#banner-logo {
+   display: none;
+   width: 50%;
+   float: left;
+}
+
+.display-img#banner-cell1 {
+	height: 95%;
+	width: 33.33333%;
+	float: left;
+	background-color: red;
+}
+
+.display-img#banner-cell2 {
+	height: 95%;
+	width: 33.33333%;
+	float: left;
+	background-color: white;
+}
+
+.display-img#banner-cell3 {
+	height: 95%;
+	width: 33.33333%;
+	float: left;
+	background-color: blue;
+}
+
+img#logo {
+	display: none;
+	width: 100%;
+}
+
+img#left {
+	width: 100%;
+}
+
+img#center {
+	width: 100%;
+}
+
+img#right {
+	width: 100%;
+}
+
+.banner-container:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+.navTri#downChic {
+    position: absolute;
+    top: 93.8%;
+    left: 47.5%;
+    z-index: 100;
+}
+
+.navTri#downChic:hover {
+	opacity: .5;
+
+	-webkit-transition: opacity .4s;
+    -moz-transition: opacity .4s;
+    -o-transition: opacity .4s;
+    transition: opacity .4s;
+}
+
+footer-home, {
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#footer-left-col {
+    height: 70px;
+    width: 50%;
+    background-color: #ffffff;
+    float: left;
+}
+
+#footer-right-col {
+    height: 70px;
+    width: 50%;
+    background-color: #000000;
+    float: right;
+}
+
+/* ========== Chic Section ========== */
+
+.view#chicSection {
+	background-color: #000000;
+	overflow-y: hidden;
+}
+
+.navTri#upHome {
+	width: 100px;
+    position: relative;
+    top: 11.3%;
+    margin: 0 auto;
+}
+
+img#uphome {
+	margin: auto;
+}
+
+.navTri#downModern {
+	width: 100px;
+    position: relative;
+    top: 88.5%;
+    margin: 0 auto;
+}
+
+.navTri#down:hover {
+	opacity: .5;
+
+	-webkit-transition: opacity .4s;
+    -moz-transition: opacity .4s;
+    -o-transition: opacity .4s;
+    transition: opacity .4s;
+}
+
+img#downModern {
+	margin: auto;
+}
+
+/* ========== Modern Section ==========*/
+
+.view#modernSection {
+	background-color: #ffffff;
+	overflow-y: hidden;
+}
+
+.navTri#upChic {
+	width: 100px;
+    position: relative;
+    top: 11.3%;
+    margin: 0 auto;
+}
+
+.navTri#downFresh {
+	width: 100px;
+    position: relative;
+    top: 88.5%;
+    margin: 0 auto;
+}
+
+/* ======== Fresh ========== */
+
+.view#freshSection {
+	background-color: #7a7a7a;
+}
+
+.navTri#upModern {
+	width: 100px;
+    position: relative;
+    top: 11.3%;
+    margin: 0 auto;
+}
+
+
