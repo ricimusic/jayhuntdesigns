@@ -680,6 +680,73 @@ span.turn {
     background-size: cover;
 }
 
+/* ----- Slide Show ----- */
+
+* {box-sizing:border-box}
+
+.main-content-container {
+    position: relative;
+    top: 15%;
+    width: 700px;
+    margin: auto;
+    background: orange;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 300px;
+  position: relative;
+  top: 15%;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+img.slidePic {
+    width: 50%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .6} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .6} 
+  to {opacity: 1}
+}
+
 /* ========== CONTACT PAGE ========== */
 
 .view#contact {
@@ -917,10 +984,6 @@ i.fa.fa-envelope:hover {
             }
         }
 
-        /*---------- Max Width 1125px ---------- */
-
-        
-
         /*---------- Max Width 1024px ---------- */
 
         @media screen 
@@ -1059,6 +1122,10 @@ i.fa.fa-envelope:hover {
                 width: 40px;
                 position: absolute;
                 top: -5px;
+            }
+
+            .fa-instagram {
+                margin-right: 25px;
             }
 
             .banner-container {
@@ -1216,6 +1283,14 @@ i.fa.fa-envelope:hover {
                 margin: auto;
                 background-color: #000000;
                 z-index: 2000;
+            }
+
+            i.fa {
+                font-size: 1.25rem;
+            }
+
+            .fa-facebook-square {
+                margin-left: 25px;
             }
 
             img.header-banner01 {
@@ -1448,7 +1523,7 @@ i.fa.fa-envelope:hover {
                 padding: 0;
                 overflow: hidden;
                 float: left;
-                }
+            }
 
             #headerCol-right ul li a {
                 font-size: .55em;
@@ -1835,6 +1910,14 @@ i.fa.fa-envelope:hover {
 
             .textbox {
                 width: 320px;               
+            }
+
+            .main-content-container {
+                position: relative;
+                top: 15%;
+                width: 100%;
+                margin: auto;
+                background: orange;
             }
 
             .textbox-popup#contact-text {
